@@ -1,0 +1,289 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mental Health Bot</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../static/logo.png" />
+    <link rel="stylesheet" href="../static/main_page/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/main_page/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/main_page/css/magnific-popup.css">
+    <link rel="stylesheet" href="../static/main_page/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/main_page/css/themify-icons.css">
+    <link rel="stylesheet" href="../static/main_page/css/nice-select.css">
+    <link rel="stylesheet" href="../static/main_page/css/flaticon.css">
+    <link rel="stylesheet" href="../static/main_page/css/animate.css">
+    <link rel="stylesheet" href="../static/main_page/css/slicknav.css">
+    <link rel="stylesheet" href="../static/main_page/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area ">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="../static/main_page/index.html">
+                                    <img src="../static/logo.png" alt="" width="100em">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="/">Home</a></li>
+                                        <li><a href="#firebaseui-auth-container">Register</a></li>
+                                        <li><a href="/chat">Chat</a></li>
+                                        <li><a href="/camera">Video</a></li>
+                                        <li><a href="/emoji">Emoji Maker</a></li>
+                                        <li><a href="/management">Management</a></li>
+                                        <li><a href="/details">Profile</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                            <div class="buy_ticket">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area slider_bg_1">
+        <div class="slider_text">
+            <div class="container">
+                <div class="position_relv">
+                    <h1 class="opcity_text d-none d-lg-block">Mental Health Bot</h1>
+                    <div class="row">
+                        <div class="col-xl-9">
+                            <div class="title_text">
+                                <h3>Mental Health Bot<br> Never Seen Before</h3>
+                                <div id="firebaseui-auth-container" class="boxed-btn-white"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="countDOwn_area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="single_date">
+                            <i class="ti-location-pin"></i>
+                            <span>Worldwide</span>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- about_area_start -->
+    <div class="about_area">
+        <div class="shape-1 d-none d-xl-block">
+            <img src="../static/main_page/img/about/shap1.png" alt="">
+        </div>
+        <div class="shape-2 d-none d-xl-block">
+            <img src="../static/main_page/img/about/shap2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_thumb">
+                        <img src="../static/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-md-6">
+                    <div class="about_info">
+                        <div class="section_title">
+                            <span class="sub_heading">This app</span>
+                            <h3> Mental Health Bot tackles
+                                <br> one of the most prominent issues: <br> Bullying and Sad chat behaviour</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about_area_end -->
+    <div class="whole-wrap">
+        <div class="container box_1170">
+            <div class="section-top-border" style="width: 100%;">
+                <h3 class="mb-30">Key Points</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <h4 class="mb-20">Hashed secure user information</h4>
+                            <p style="font-size: medium;"> Information about each individual is stored in their own personalized QR code
+                                <br> Each of these QR codes are hashed and secure from any external user
+                                <br> This makes the process autonomous, independent and easy! </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <h4 class="mb-20">Management system for bars</h4>
+                            <p style="font-size: medium;">Each bar has a personalized management system containing the details of each individual
+                                <br>This allows bars to detect any negligent history of the customer including any behavioural issues that may have arisen in previous bars</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <h4 class="mb-20">Autonomous and self-driven payment</h4>
+                            <p style="font-size: medium;">The payment system is designed so as to be completely autonomous
+                                <br> No contact between customers and bartenders are required for payment
+                                <br> This prevents any issue that may arise with not having enough money</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-top-border">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <blockquote class="generic-blockquote">
+                            “Excessive alcohol use is responsible for more than 95,000 deaths in the United States each year, or 261 deaths per day. These deaths shorten the lives of those who die by an average of almost 29 years, for a total of 2.8 million years of potential life
+                            lost." <br><br> We aim to improve this trend.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sample-text-area">
+        <div class="container box_1170">
+            <h3 class="text-heading">How It Works!</h3>
+            <p class="sample-text" style="font-size: medium;">
+                The customers get a QR code which is printed onto a band when they first sign up for the programme. Each time they enter a bar, they scan this QR code and the bars get updated about their information, like whether they are above the legal drinking age,
+                as well as their gender, weight, and payment method (which are all confirmed at the time of registration and updated periodically and dynamically).
+                <br><br> When the customers want to order a drink, they scan the QR code on their wrist bands which add the drink they ordered to their tab and update the approximated biometrics (We predict their BAC using regression models). They can't
+                buy drinks from the QR code once their drinking limit is reached or they run out of money.
+                <br><br> Furthermore, if the customer does not adhere to the policies of the bars, by either misbehaving of creating a nuisance, the bar can update their QR code with this information so subsequently, each time that customer visits the
+                bar, the bar would get to know of these misdemeanors and can refuse to offer drinks. This will restrict problems like overdrinking, underage drinking etc to a great extent and will help reduce the burden on health care systems.
+
+            </p>
+        </div>
+    </section>
+    <!-- speakers_start -->
+    <div class="speakers_area">
+        <h1 class="horizontal_text d-none d-lg-block">
+            Core Team
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="serction_title_large mb-95">
+                        <h3>
+                            Core Team
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-5 col-md-6">
+
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="../static/main_page/img/ayush.png" alt="">
+
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Python Developer</h3>
+                            <p>Ayush Garg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-2 col-md-6">
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="../static/main_page/img/ajay.png" alt="">
+
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Web Developer</h3>
+                            <p>Ajay Arvind</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- resister_book_start -->
+    <div class="resister_book resister_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="resister_text text-center">
+                        <p>
+                            <h2 style="text-align:center;color: aliceblue;">Mental Health Bot utilizes hashed QR codes in order to autonomize the bartending process and promote a safer and healthier way of consuming alcohol!
+                            </h2>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS here -->
+    <script src="../static/main_page/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../static/main_page/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../static/main_page/js/popper.min.js"></script>
+    <script src="../static/main_page/js/bootstrap.min.js"></script>
+    <script src="../static/main_page/js/owl.carousel.min.js"></script>
+    <script src="../static/main_page/js/isotope.pkgd.min.js"></script>
+    <script src="../static/main_page/js/ajax-form.js"></script>
+    <script src="../static/main_page/js/waypoints.min.js"></script>
+    <script src="../static/main_page/js/jquery.counterup.min.js"></script>
+    <script src="../static/main_page/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../static/main_page/js/scrollIt.js"></script>
+    <script src="../static/main_page/js/jquery.scrollUp.min.js"></script>
+    <script src="../static/main_page/js/wow.min.js"></script>
+    <script src="../static/main_page/js/nice-select.min.js"></script>
+    <script src="../static/main_page/js/jquery.slicknav.min.js"></script>
+    <script src="../static/main_page/js/jquery.magnific-popup.min.js"></script>
+    <script src="../static/main_page/js/jquery.countdown.js"></script>
+    <script src="../static/main_page/js/plugins.js"></script>
+    <script src="../static/main_page/js/contact.js"></script>
+    <script src="../static/main_page/js/jquery.ajaxchimp.min.js"></script>
+    <script src="../static/main_page/js/jquery.form.js"></script>
+    <script src="../static/main_page/js/jquery.validate.min.js"></script>
+    <script src="../static/main_page/js/mail-script.js"></script>
+
+    <script src="../static/main_page/js/main.js"></script>
+    <script src="../static/index/fireBase.js"></script>
+    <script src="../static/login.js"></script>
+
+</body>
+
+</html>
