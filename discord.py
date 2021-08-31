@@ -10,7 +10,7 @@ cred = credentials.Certificate(
 
 
 firebase_admin.initialize_app(cred)
-TOKEN = 'ODc4NDgxOTYyNjQ4NjIxMTI2.YSB0FQ.96H6R8Ix7xqVsqETpw3bc5UA1L4'
+TOKEN = '#enterbottokenhere'
 
 
 class MyClient(discord.Client):
@@ -75,7 +75,7 @@ class MentalHealth:
         return doc_ref
 
     def send_email(email, message, SUBJECT):
-        port = 587  
+        port = 587
         smtp_server = "smtp.gmail.com"
         sender_email = 'pogchampvignesh123@gmail.com'
         receiver_email = email
@@ -100,7 +100,6 @@ class MentalHealth:
         emo_detector = FER(mtcnn=True)
         captured_emotions = emo_detector.detect_emotions(image)
         print("captured emoji", captured_emotions)
-
 
 
 client = MyClient()
